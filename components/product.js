@@ -1,4 +1,4 @@
-import Header from "./headers"
+import Header from "./Headers"
 import useFetchProduct from "../utils/useFetchProduct";
 import { PRODUCT_API } from '../utils/constants'
 import Shimmer from "./shimmer";

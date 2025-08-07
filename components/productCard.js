@@ -1,6 +1,6 @@
 import { useContext, useState, useEffect } from "react"
 import { cartContext } from "../productWrapper"
-import Notification from "./notification"
+import Notification from "./Notification"
 
 
 const ProductCard = ({ productData, isCart }) => {

@@ -46,42 +46,6 @@
     gap: .75rem;
 }
 
-/* .card {
-  flex: 1 1 calc(50% - 1rem);
-  max-width: 10rem;
-  aspect-ratio: 2 / 3; 
-  background-color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  padding: 1rem;
-  box-sizing: border-box;
-} */
-
-/* Small devices (phones, < 600px) */
-/* @media (max-width: 600px) {
-  .card {
-    flex: 1 1 100%; 
-    max-width: 100%;
-  }
-} */
-
-/* Medium devices (tablets, 600px–899px) */
-/* @media (min-width: 600px) and (max-width: 899px) {
-  .card {
-    flex: 1 1 calc(45% -1rem);
-    max-width: 100%;
-    
-  }
-} */
-
-/* Large devices (desktops, 900px+) */
-/* @media (min-width: 900px) {
-  .card {
-    width: 10rem;
-    height: 15rem;
-  }
-} */
-
 .product {
   display: flex;
   flex-wrap: wrap;
