@@ -1,0 +1,204 @@
+.header {
+    height: 3rem;
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+    div {
+        font-weight: bold;
+    }
+}
+
+.wrapper {
+    display: flex;
+    gap: 1rem;
+    margin-top: .75rem;
+    .product {
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: .75rem;
+        justify-content: center;
+        padding: 1rem;
+
+    };
+    .cart {
+        width: 30%;
+        display: flex;
+        padding: 1rem;
+        flex-wrap: wrap;
+        gap: 1rem;
+        flex-direction: column;
+    }
+}
+
+.shimmer {
+    background-color: lightgray;
+    width: 10rem;
+    height: 15rem;
+}
+.shimmerWrapper {
+     padding: .75rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem;
+}
+
+/* .card {
+  flex: 1 1 calc(50% - 1rem);
+  max-width: 10rem;
+  aspect-ratio: 2 / 3; 
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 1rem;
+  box-sizing: border-box;
+} */
+
+/* Small devices (phones, < 600px) */
+/* @media (max-width: 600px) {
+  .card {
+    flex: 1 1 100%; 
+    max-width: 100%;
+  }
+} */
+
+/* Medium devices (tablets, 600px–899px) */
+/* @media (min-width: 600px) and (max-width: 899px) {
+  .card {
+    flex: 1 1 calc(45% -1rem);
+    max-width: 100%;
+    
+  }
+} */
+
+/* Large devices (desktops, 900px+) */
+/* @media (min-width: 900px) {
+  .card {
+    width: 10rem;
+    height: 15rem;
+  }
+} */
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-end; /* Right-aligned cards by default */
+  padding: 1rem;
+}
+
+.card {
+  width: 15rem;
+  min-height: 18rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition:  box-shadow 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+.card img {
+  width: 120px;
+  height: 150px;
+  border-radius: 4px;
+  margin: auto;
+}
+
+.card h3 {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  font-weight: 600;
+}
+
+.card p {
+  font-size: 0.875rem;
+  color: #555;
+  flex-grow: 1;
+  margin-bottom: 0.5rem;
+}
+
+.card .price {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+}
+
+/* Tablet: 2 cards per row */
+@media (max-width: 899px) and (min-width: 600px) {
+  .card {
+    max-width: 100%;
+  }
+
+  .card-container {
+    justify-content: space-evenly;
+  }
+}
+
+/* Mobile: 1 card per row */
+@media (max-width: 599px) {
+  .card {
+    width: 100%;
+    max-width: 10rem;
+  }
+
+  .cart {
+    width: 40% !important;
+  }
+
+  .card-container {
+    justify-content: center;
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.empty-cart-info {
+  background: white;
+    padding: 0rem .75rem;
+    height: 100px;
+    width: 80%;
+}
+
+.cross-mark {
+   text-align: right;
+    margin-bottom: -2rem;
+    margin-right: -.5rem;
+    font-size: 1.5rem;
+    position: relative;
+    top: -2rem;
+    right: -1rem;
+}
+.cross-mark-wrapper:hover {
+  color: rgb(226, 50, 50);
+  cursor: pointer;
+}
+
