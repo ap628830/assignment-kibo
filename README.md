@@ -37,6 +37,7 @@ Shopping cart web application
 
 - run- npm install to install dependencies 
 - run-  npm start 
+- test - npm run test
 
 
 
