@@ -1,0 +1,1 @@
+{"mappings":"AAAA;;;;AAKA","sources":["index.css"],"sourcesContent":["* {\r\n\r\n  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;\r\n}\r\n\r\nbody {\r\n    margin:0;\r\n    background: #f0f0f0;\r\n}"],"names":[],"version":3,"file":"Kibo-assignment.9e4c6fd2.css.map","sourceRoot":"/__parcel_source_root/"}
