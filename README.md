@@ -39,6 +39,9 @@ Shopping cart web application
 - run-  npm start 
 - test - npm run test
 
+## Live url of application 
+https://ap628830.github.io/assignment-kibo/
+
 
 
 
