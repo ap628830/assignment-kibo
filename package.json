@@ -6,7 +6,7 @@
     "test": "jest",
     "start": "parcel index.html",
     "build": "parcel build index.html --public-url /assignment-kibo/",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && copyfiles dist/index.html dist/404.html",
     "deploy": "gh-pages -d dist"
   },
   "author": "",
@@ -25,6 +25,7 @@
     "@testing-library/react": "^16.3.0",
     "@types/jest": "^30.0.0",
     "babel-jest": "^30.0.5",
+    "copyfiles": "^2.4.1",
     "gh-pages": "^6.3.0",
     "jest": "^30.0.5",
     "jest-environment-jsdom": "^30.0.5"
