@@ -30,6 +30,8 @@ Shopping cart web application
 - Configure parcel config file to disable default babel transpilation (added .parcelrc file)
 - Configure Jest
 - install Jest dom 
+- install @babel/preset-react
+- install @testing-library/jest-dom
 
 ## To Run application on local - 
 
